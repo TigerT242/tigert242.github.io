@@ -1,0 +1,123 @@
+body {
+	background-image: url(https://cloud.githubusercontent.com/assets/14967511/12247982/765e86b2-b884-11e5-80f8-52a6ece94af1.jpg);
+}
+
+video{
+	width: 400px;
+	height: 200px;
+	border-radius: 200px;
+	transition: height: 2s;
+	transition: width 2s;
+}
+
+video:hover{
+	height: 500px;
+	width: 1000px;
+}
+
+.jumbotron {
+	font-family: Georgia;
+	text-align: center;
+	color: white;
+}
+
+header {
+	text-align: center;
+}
+
+@keyframes nav{
+	from {transform:rotate(0deg);}
+	to {transform:rotate(11520deg);}
+}
+
+.minitron img{
+	width: 150px;
+	align: center;
+	border-radius: 75px;
+	animation-name: nav;
+	animation-duration: 12s;
+	
+}
+
+.ht img {
+	height: 50px;
+	padding: 50px;
+	border: 10px ridge #0000FF;
+	
+}
+
+.minitron li {
+	color: black;
+	display: inline;
+}
+
+a:link {
+	color: black;
+	margint: 150px;
+}
+
+.Me{
+	text-align: center;
+	color: white;
+	margin-right: 55px;
+	margin-left: 55px;
+	background-image: url(https://cloud.githubusercontent.com/assets/14967511/12247962/75c80066-b884-11e5-9ee6-a688b82e80be.jpg);
+}
+
+.Me h2{
+	transition: font-size 2s;
+}
+
+.Me span{
+	transition: color 2s;
+}
+
+.Me span:hover{
+	color: red;
+}
+
+.Me h2:hover{
+	font-size: 50px;
+	
+}
+
+.More p{
+	transition: font-size 4s;
+}
+
+.More p:hover{
+	font-size: 25px;
+}
+
+.More{
+	color: red;
+	background-image: url(TigerBackground.jpg);
+	text-align: center;
+}
+
+.More h{
+	font-family: Georgia;
+}
+
+.More h4{
+	color: #FFD700;
+}
+
+hr{
+	color: #ff0000;
+	background-color: #ff0000;
+	height: 20px;
+	
+}
+
+footer{
+	color: white;
+	transition: font-size 4s;
+	transition: font-family 4s;
+	transition: color 4s;
+	tranistion: font-weight 4s;
+}
+
+footer:hover{
+	color:red; font-size: 50px; font-family: Algerian; font-weight: bold;
+}
